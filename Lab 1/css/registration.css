@@ -1,0 +1,42 @@
+.navbar{
+    background: #2f0a40;
+}
+
+.section{
+    background: linear-gradient(#38315a, #2d0a40);
+}
+
+.section-line{
+    background: #eec110;
+    width: 120px;
+    height: 2px;
+}
+
+.form-item{
+    width: 40%;
+    min-width: 200px;
+}
+
+.label{
+    font-size: 17px;
+    color: #837e9c;
+    font-weight: 500;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=password],
+select{
+    opacity: 0.5;
+}
+
+input[type=date]{
+    height: 38px;
+}
+
+input[type=button]{
+    background-color: #eec110;
+    outline: none;
+    font-size: 19px;
+}
