@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/registration.css">
+    <link rel="stylesheet" href="../css/calculator.css">
 </head>
 
 <body>
@@ -21,8 +21,15 @@
     <main>
         <section class="m-auto w-75 section py-3">
             <h1 style="font-size: 5vw;" class="text-white text-center">In progress...</h1>
+            <div class="d-flex flex-column">
+                <button class="btn btn-outline-warning m-4 simple-calc" onclick="changing(simple)">Simple Calculator</button>
+                <div class="simple text-white m-auto">Simple Calculator</div>
+                <button class="btn btn-outline-warning m-4 eng-calc" onclick="changing(eng)">Еngineering Сalculator</button>
+                <div class="eng text-white m-auto">Engineering Calculator</div>
+            </div>
         </section>
     </main>
+    <script src="../index.js"></script>
 </body>
 
 </html>
