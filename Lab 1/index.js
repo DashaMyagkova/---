@@ -7,6 +7,3 @@ function changing(elem){
     elem.classList.toggle('show');
 }
 
-engCalc.onClick = function (){
-    eng.classList.toggle('.show');
-}
