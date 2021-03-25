@@ -1,0 +1,22 @@
+.navbar{
+    background: #2f0a40;
+}
+
+.section{
+    background: linear-gradient(#38315a, #2d0a40);
+}
+
+@media screen and (max-width: 540px) {
+    table.info thead {
+      display: none;
+    }
+
+    table.info tr {
+      display: block;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e8e9eb;
+    }
+    table.info td {
+      display: block;
+    }
+  }
