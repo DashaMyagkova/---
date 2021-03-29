@@ -9,6 +9,5 @@ function clean () {
 }
 
 function back () {
-    let expression = input.textContent;
-    input.textContent = expression.substring(0, expression.length - 1);
+    input.textContent = input.textContent.substring(0, input.textContent.length - 1);
 }

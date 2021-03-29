@@ -1,3 +1,4 @@
+let input = document.querySelector('.input');
 document.querySelector('.type').addEventListener('click', function(){
     if(document.querySelector('.type').textContent == 'deg'){
       this.textContent = 'rad';
@@ -7,11 +8,17 @@ document.querySelector('.type').addEventListener('click', function(){
     }
 })
 
-function validate(form_id,email) {
-    var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-    var address = document.forms[form_id].elements[email].value;
-    if(reg.test(address) == false) {
-       alert('Введите корректный e-mail');
-       return false;
-    }
- }
+function equal_view () {
+  let expression = input.textContent;
+  input.textContent = equal(expression)
+};
+
+function math_view (name) {
+  let expression = input.textContent;
+  input.textContent = math(name, expression)
+};
+
+function factorial_view (){
+  let expression = input.textContent;
+  input.textContent = factorial(expression)
+}
