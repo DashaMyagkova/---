@@ -5,4 +5,4 @@ function validate(form_id,email) {
        alert('Введите корректный e-mail');
        return false;
     }
- }
+}
